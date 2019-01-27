@@ -90,13 +90,15 @@ ej. http://localhost:3000/?precioMax=200
 
 ## Filtros de acción en web
 
-* Se compra:
+* Se compra: 
 
 ej. http://localhost:3000/?venta=false
 
 * Se vende:
 
 ej. http://localhost:3000/?venta=true
+
+* Se puede dividir por secciones, pulsando los enlaces  
 
 
 ## Filtros por tags en web
