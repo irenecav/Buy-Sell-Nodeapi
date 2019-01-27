@@ -24,9 +24,12 @@
     <% if (anuncio.precio) { %>
   <p> <%= anuncio.precio %> Euros</p>
   <% } %>
-  <% if (anuncio.tags) { %>
-  <p> <%= anuncio.tags %></p>
-  <% } %>
+ 
+  <% anuncio.tags.forEach( tag => { %>
+  <span> <%= tag %> </span>
+  <% }) %>
+
+
   </article>
   <!--<p> <%= anuncio.nombre + ' ' + anuncio.venta + ' ' + anuncio.precio + ' ' + anuncio.foto + ' ' + anuncio.tags %></p>-->
 <% }) %>  
