@@ -110,3 +110,8 @@ ej. http://localhost:3000/?tags=mobile&tags=lifestyle
 
 
 
+## Practica de Devops
+
+http://minidevs.es
+
+13.53.158.224
